@@ -1,0 +1,58 @@
+﻿
+@{
+    ViewBag.Title = "CreateEmployee";
+}
+<script src="~/Scripts/employee.js"></script>
+<h2 style="color:#4cff00">Employee Form</h2>
+
+<input type="hidden" class="form-control" id="Id">
+<div class="form-group">
+    <h4>Enter your Name</h4>
+    <input type="text" class="form-control" id="Name" />
+</div>
+<div class="form-group">
+    <h4>Enter your Age</h4>
+    <input type="text" class="form-control" id="Age" />
+</div>
+<div class="form-group">
+    <h4>Enter your Contact_no</h4>
+    <input type="text" class="form-control" id="Contact_no" />
+</div>
+<div class="form-group">
+    <h4>Enter your Address</h4>
+    <input type="text" class="form-control" id="Address" />
+</div>
+<div class="form-group">
+    <h4>Enter your Salary</h4>
+    <input type="text" class="form-control" id="Salary" />
+</div>
+<div class="form-group">
+    <h4>Enter your Email_id</h4>
+    <input type="text" class="form-control" id="Email_id" />
+</div>
+<button type="button" onclick="Insertemployee();">Submit</button>
+<button type="button" onclick="Update();">Update</button>
+
+
+<h4>InsertEmployeer</h4>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Contact_no</th>
+            <th>Address</th>
+            <th>Salary</th>
+            <th>Email_id</th>
+            <th>Action</th>
+            <th>Update</th>
+
+        </tr>
+    </thead>
+    <tbody class="employee">
+    </tbody>
+</table>
+
+<script src="~/Scripts/employee.js"></script>
+
+
